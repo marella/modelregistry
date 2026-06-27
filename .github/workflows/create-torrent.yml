@@ -1,0 +1,38 @@
+name: Create Torrent
+
+on:
+  workflow_dispatch:
+    inputs:
+      repo_id:
+        required: true
+
+jobs:
+  create-torrent:
+    runs-on: ubuntu-24.04
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be
+        with:
+          tool-cache: true
+
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.head_ref }}
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Install
+        run: pip install huggingface-hub==1.21.0 libtorrent==2.0.13
+
+      - name: Create Torrent
+        run: python scripts/create_torrent.py '${{ github.event.inputs.repo_id }}'
+
+      - uses: stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9
+        with:
+          file_pattern: "models/*.torrent"
+          commit_message: "Create torrent for ${{ github.event.inputs.repo_id }}"
