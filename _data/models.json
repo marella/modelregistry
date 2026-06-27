@@ -1,0 +1,100 @@
+[
+  {
+    "id": "baidu/Unlimited-OCR",
+    "size": "6.8 GB",
+    "parameters": "3.3B",
+    "license": "mit",
+    "torrent": "models/baidu/unlimited-ocr/Unlimited-OCR.torrent"
+  },
+  {
+    "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+    "size": "97.2 GB",
+    "parameters": "",
+    "license": "apache-2.0",
+    "torrent": "models/empero-ai/qwythos-9b-claude-mythos-5-1m-gguf/Qwythos-9B-Claude-Mythos-5-1M-GGUF.torrent"
+  },
+  {
+    "id": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+    "size": "38.1 GB",
+    "parameters": "",
+    "license": "apache-2.0",
+    "torrent": "models/yuxinlu1/gemma-4-12b-agentic-fable5-composer2.5-v2-3.5x-tau2-gguf/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF.torrent"
+  },
+  {
+    "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
+    "size": "18.8 GB",
+    "parameters": "9.4B",
+    "license": "apache-2.0",
+    "torrent": "models/empero-ai/qwythos-9b-claude-mythos-5-1m/Qwythos-9B-Claude-Mythos-5-1M.torrent"
+  },
+  {
+    "id": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+    "size": "40.8 GB",
+    "parameters": "",
+    "license": "apache-2.0",
+    "torrent": "models/yuxinlu1/gemma-4-12b-coder-fable5-composer2.5-v1-gguf/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF.torrent"
+  },
+  {
+    "id": "Qwen/Qwen-AgentWorld-35B-A3B",
+    "size": "69.3 GB",
+    "parameters": "34.7B",
+    "license": "apache-2.0",
+    "torrent": "models/qwen/qwen-agentworld-35b-a3b/Qwen-AgentWorld-35B-A3B.torrent"
+  },
+  {
+    "id": "WeiboAI/VibeThinker-3B",
+    "size": "6.2 GB",
+    "parameters": "3.1B",
+    "license": "mit",
+    "torrent": "models/weiboai/vibethinker-3b/VibeThinker-3B.torrent"
+  },
+  {
+    "id": "deepreinforce-ai/Ornith-1.0-9B-GGUF",
+    "size": "46.9 GB",
+    "parameters": "",
+    "license": "mit",
+    "torrent": "models/deepreinforce-ai/ornith-1.0-9b-gguf/Ornith-1.0-9B-GGUF.torrent"
+  },
+  {
+    "id": "deepreinforce-ai/Ornith-1.0-35B",
+    "size": "70.3 GB",
+    "parameters": "664.9K",
+    "license": "mit",
+    "torrent": "models/deepreinforce-ai/ornith-1.0-35b/Ornith-1.0-35B.torrent"
+  },
+  {
+    "id": "deepreinforce-ai/Ornith-1.0-9B",
+    "size": "18.8 GB",
+    "parameters": "1.5M",
+    "license": "mit",
+    "torrent": "models/deepreinforce-ai/ornith-1.0-9b/Ornith-1.0-9B.torrent"
+  },
+  {
+    "id": "microsoft/FastContext-1.0-4B-SFT",
+    "size": "8.1 GB",
+    "parameters": "4B",
+    "license": "mit",
+    "torrent": "models/microsoft/fastcontext-1.0-4b-sft/FastContext-1.0-4B-SFT.torrent"
+  },
+  {
+    "id": "nvidia/Qwen3.6-35B-A3B-NVFP4",
+    "size": "23.5 GB",
+    "parameters": "18.7B",
+    "license": "apache-2.0",
+    "torrent": "models/nvidia/qwen3.6-35b-a3b-nvfp4/Qwen3.6-35B-A3B-NVFP4.torrent"
+  },
+  {
+    "id": "huihui-ai/Huihui-gemma-4-12B-coder-fable5-composer2.5-v1-abliterated",
+    "size": "24 GB",
+    "parameters": "12B",
+    "license": "apache-2.0",
+    "torrent": "models/huihui-ai/huihui-gemma-4-12b-coder-fable5-composer2.5-v1-abliterated/Huihui-gemma-4-12B-coder-fable5-composer2.5-v1-abliterated.torrent"
+  },
+  {
+    "id": "HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
+    "size": "7.8 GB",
+    "parameters": "",
+    "license": "gemma",
+    "torrent": "models/hauhaucs/gemma4-12b-qat-uncensored-hauhaucs-balanced/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced.torrent"
+  }
+]
