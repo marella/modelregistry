@@ -1,0 +1,58 @@
+{
+  "models/baidu/unlimited-ocr/Unlimited-OCR.torrent": {
+    "peers": 8,
+    "seeds": 2
+  },
+  "models/deepreinforce-ai/ornith-1.0-35b/Ornith-1.0-35B.torrent": {
+    "peers": 7,
+    "seeds": 0
+  },
+  "models/deepreinforce-ai/ornith-1.0-9b-gguf/Ornith-1.0-9B-GGUF.torrent": {
+    "peers": 11,
+    "seeds": 1
+  },
+  "models/deepreinforce-ai/ornith-1.0-9b/Ornith-1.0-9B.torrent": {
+    "peers": 11,
+    "seeds": 0
+  },
+  "models/empero-ai/qwythos-9b-claude-mythos-5-1m-gguf/Qwythos-9B-Claude-Mythos-5-1M-GGUF.torrent": {
+    "peers": 11,
+    "seeds": 0
+  },
+  "models/empero-ai/qwythos-9b-claude-mythos-5-1m/Qwythos-9B-Claude-Mythos-5-1M.torrent": {
+    "peers": 6,
+    "seeds": 3
+  },
+  "models/hauhaucs/gemma4-12b-qat-uncensored-hauhaucs-balanced/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced.torrent": {
+    "peers": 10,
+    "seeds": 1
+  },
+  "models/huihui-ai/huihui-gemma-4-12b-coder-fable5-composer2.5-v1-abliterated/Huihui-gemma-4-12B-coder-fable5-composer2.5-v1-abliterated.torrent": {
+    "peers": 11,
+    "seeds": 1
+  },
+  "models/microsoft/fastcontext-1.0-4b-sft/FastContext-1.0-4B-SFT.torrent": {
+    "peers": 11,
+    "seeds": 1
+  },
+  "models/nvidia/qwen3.6-35b-a3b-nvfp4/Qwen3.6-35B-A3B-NVFP4.torrent": {
+    "peers": 3,
+    "seeds": 2
+  },
+  "models/qwen/qwen-agentworld-35b-a3b/Qwen-AgentWorld-35B-A3B.torrent": {
+    "peers": 2,
+    "seeds": 1
+  },
+  "models/weiboai/vibethinker-3b/VibeThinker-3B.torrent": {
+    "peers": 3,
+    "seeds": 0
+  },
+  "models/yuxinlu1/gemma-4-12b-agentic-fable5-composer2.5-v2-3.5x-tau2-gguf/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF.torrent": {
+    "peers": 12,
+    "seeds": 1
+  },
+  "models/yuxinlu1/gemma-4-12b-coder-fable5-composer2.5-v1-gguf/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF.torrent": {
+    "peers": 14,
+    "seeds": 2
+  }
+}
