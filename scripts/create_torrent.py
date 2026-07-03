@@ -1,16 +1,32 @@
+import os
 import sys
 import tempfile
 from pathlib import Path
-from shutil import rmtree
+from shutil import disk_usage, rmtree
 
 import libtorrent as lt
-from huggingface_hub import model_info, snapshot_download
+from huggingface_hub import list_models, model_info, snapshot_download
+
+licenses = [
+    "apache-2.0",
+    "mit",
+]
+
+LICENSES = frozenset(licenses)
+GB = 1000**3
+root = Path(__file__).parent.parent.resolve()
+models_dir = root / "models"
 
 
 def main() -> None:
     repo_id = get_repo_id()
+    if not repo_id:
+        return
     repo_id, revision = get_model_info(repo_id)
     download_model_and_create_torrent(repo_id, revision)
+    if os.environ.get("GITHUB_OUTPUT"):
+        with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+            print(f"repo_id={repo_id}", file=f)
 
 
 def download_model_and_create_torrent(repo_id: str, revision: str) -> None:
@@ -39,17 +55,53 @@ def download_model_and_create_torrent(repo_id: str, revision: str) -> None:
         create_torrent(model_dir, url_seed, torrent_file)
 
 
-def get_repo_id() -> str:
+def get_repo_id() -> str | None:
     try:
         repo_id = sys.argv[1].strip()
     except IndexError:
-        raise ValueError("Repo id must be passed as a command-line argument.")
+        repo_id = None
+
+    repo_id = repo_id or find_repo_id()
+    if not repo_id:
+        return
 
     if repo_id.count("/") != 1:
         raise ValueError(
             f"Repo id '{repo_id}' must be in the form 'namespace/repo_name'."
         )
     return repo_id
+
+
+def find_repo_id() -> str | None:
+    existing = set(
+        str(p.parent.relative_to(models_dir)).lower()
+        for p in models_dir.glob("*/*/*.torrent")
+        if p.is_file()
+    )
+    free = disk_usage("/").free - 5 * GB
+    print(f"Finding repo with size < {free}.")
+    models = list_models(gated=False, expand=["cardData"], limit=30)
+    for model in models:
+        repo_id = model.id
+        if repo_id.lower() in existing:
+            print(f"Repo '{repo_id}' already exists.")
+            continue
+        license = model.card_data.license if model.card_data else None
+        if license not in LICENSES:
+            print(f"Repo '{repo_id}' license '{license}' is not allowed.")
+            continue
+        repo_size = get_repo_size(repo_id)
+        if repo_size > free:
+            print(f"Repo '{repo_id}' size ({repo_size}) > free space ({free}).")
+            continue
+        print(f"Found repo '{repo_id}' with size {repo_size}.")
+        return repo_id
+    print("No repo found.")
+
+
+def get_repo_size(repo_id: str) -> int:
+    model = model_info(repo_id=repo_id, files_metadata=True)
+    return sum(s.size or 0 for s in model.siblings or [])
 
 
 def get_model_info(repo_id: str) -> tuple[str, str]:
