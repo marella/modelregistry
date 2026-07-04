@@ -28,6 +28,13 @@
     "torrent": "models/nvidia/qwen3.6-27b-nvfp4/Qwen3.6-27B-NVFP4.torrent"
   },
   {
+    "id": "InternScience/Agents-A1",
+    "size": "70.3 GB",
+    "parameters": "35.1B",
+    "license": "apache-2.0",
+    "torrent": "models/internscience/agents-a1/Agents-A1.torrent"
+  },
+  {
     "id": "deepreinforce-ai/Ornith-1.0-9B",
     "size": "18.8 GB",
     "parameters": "1.5M",
@@ -42,11 +49,11 @@
     "torrent": "models/deepreinforce-ai/ornith-1.0-9b-gguf/Ornith-1.0-9B-GGUF.torrent"
   },
   {
-    "id": "InternScience/Agents-A1",
+    "id": "deepreinforce-ai/Ornith-1.0-35B",
     "size": "70.3 GB",
-    "parameters": "35.1B",
-    "license": "apache-2.0",
-    "torrent": "models/internscience/agents-a1/Agents-A1.torrent"
+    "parameters": "664.9K",
+    "license": "mit",
+    "torrent": "models/deepreinforce-ai/ornith-1.0-35b/Ornith-1.0-35B.torrent"
   },
   {
     "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
@@ -54,13 +61,6 @@
     "parameters": "9.4B",
     "license": "apache-2.0",
     "torrent": "models/empero-ai/qwythos-9b-claude-mythos-5-1m/Qwythos-9B-Claude-Mythos-5-1M.torrent"
-  },
-  {
-    "id": "deepreinforce-ai/Ornith-1.0-35B",
-    "size": "70.3 GB",
-    "parameters": "664.9K",
-    "license": "mit",
-    "torrent": "models/deepreinforce-ai/ornith-1.0-35b/Ornith-1.0-35B.torrent"
   },
   {
     "id": "Qwen/Qwen-AgentWorld-35B-A3B",
@@ -82,6 +82,13 @@
     "parameters": "",
     "license": "apache-2.0",
     "torrent": "models/bugtraceai/bugtraceai-core-ultra-27b-q6/BugTraceAI-CORE-Ultra-27B-Q6.torrent"
+  },
+  {
+    "id": "AliesTaha/fable-traces",
+    "size": "8.1 GB",
+    "parameters": "4B",
+    "license": "apache-2.0",
+    "torrent": "models/aliestaha/fable-traces/fable-traces.torrent"
   },
   {
     "id": "nvidia/Qwen3.6-35B-A3B-NVFP4",

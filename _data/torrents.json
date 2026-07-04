@@ -1,66 +1,70 @@
 {
-  "models/baidu/unlimited-ocr/Unlimited-OCR.torrent": {
-    "peers": 7,
+  "models/aliestaha/fable-traces/fable-traces.torrent": {
+    "peers": 5,
     "seeds": 0
   },
+  "models/baidu/unlimited-ocr/Unlimited-OCR.torrent": {
+    "peers": 9,
+    "seeds": 1
+  },
   "models/bugtraceai/bugtraceai-core-ultra-27b-q6/BugTraceAI-CORE-Ultra-27B-Q6.torrent": {
-    "peers": 2,
+    "peers": 1,
     "seeds": 0
   },
   "models/deepreinforce-ai/ornith-1.0-35b/Ornith-1.0-35B.torrent": {
     "peers": 2,
-    "seeds": 1
+    "seeds": 0
   },
   "models/deepreinforce-ai/ornith-1.0-9b-gguf/Ornith-1.0-9B-GGUF.torrent": {
-    "peers": 10,
-    "seeds": 1
-  },
-  "models/deepreinforce-ai/ornith-1.0-9b/Ornith-1.0-9B.torrent": {
-    "peers": 4,
-    "seeds": 1
-  },
-  "models/empero-ai/qwythos-9b-claude-mythos-5-1m-gguf/Qwythos-9B-Claude-Mythos-5-1M-GGUF.torrent": {
     "peers": 2,
     "seeds": 1
   },
+  "models/deepreinforce-ai/ornith-1.0-9b/Ornith-1.0-9B.torrent": {
+    "peers": 3,
+    "seeds": 1
+  },
+  "models/empero-ai/qwythos-9b-claude-mythos-5-1m-gguf/Qwythos-9B-Claude-Mythos-5-1M-GGUF.torrent": {
+    "peers": 1,
+    "seeds": 0
+  },
   "models/empero-ai/qwythos-9b-claude-mythos-5-1m/Qwythos-9B-Claude-Mythos-5-1M.torrent": {
-    "peers": 10,
+    "peers": 7,
     "seeds": 1
   },
   "models/hauhaucs/gemma4-12b-qat-uncensored-hauhaucs-balanced/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced.torrent": {
-    "peers": 7,
-    "seeds": 0
-  },
-  "models/huihui-ai/huihui-gemma-4-12b-coder-fable5-composer2.5-v1-abliterated/Huihui-gemma-4-12B-coder-fable5-composer2.5-v1-abliterated.torrent": {
     "peers": 4,
     "seeds": 1
   },
+  "models/huihui-ai/huihui-gemma-4-12b-coder-fable5-composer2.5-v1-abliterated/Huihui-gemma-4-12B-coder-fable5-composer2.5-v1-abliterated.torrent": {
+    "peers": 2,
+    "seeds": 1
+  },
   "models/internscience/agents-a1/Agents-A1.torrent": {
-    "peers": 5,
+    "peers": 6,
     "seeds": 1
   },
   "models/nvidia/qwen3.6-27b-nvfp4/Qwen3.6-27B-NVFP4.torrent": {
-    "peers": 7,
-    "seeds": 1
+    "peers": 11,
+    "seeds": 0
   },
   "models/nvidia/qwen3.6-35b-a3b-nvfp4/Qwen3.6-35B-A3B-NVFP4.torrent": {
     "peers": 2,
     "seeds": 0
   },
   "models/qwen/qwen-agentworld-35b-a3b/Qwen-AgentWorld-35B-A3B.torrent": {
-    "peers": 3,
-    "seeds": 2
+    "peers": 17,
+    "seeds": 0
   },
   "models/weiboai/vibethinker-3b/VibeThinker-3B.torrent": {
-    "peers": 1,
+    "peers": 2,
     "seeds": 0
   },
   "models/yuxinlu1/gemma-4-12b-agentic-fable5-composer2.5-v2-3.5x-tau2-gguf/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF.torrent": {
-    "peers": 4,
+    "peers": 6,
     "seeds": 1
   },
   "models/yuxinlu1/gemma-4-12b-coder-fable5-composer2.5-v1-gguf/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF.torrent": {
-    "peers": 9,
+    "peers": 4,
     "seeds": 2
   }
 }
