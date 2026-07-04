@@ -145,7 +145,7 @@
     <div class="container">
       <div class="content">
 
-        {% for model in site.data.models %}
+        {% for model in site.data.models limit: 50 %}
         <div class="card bg-card">
           <div class="row">
             <div class="col p-card">
