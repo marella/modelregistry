@@ -1,6 +1,8 @@
 name: Create Torrent
 
 on:
+  schedule:
+    - cron: "47 12 * * *" # Runs at 12:47 UTC every day
   workflow_dispatch:
     inputs:
       repo_id:
