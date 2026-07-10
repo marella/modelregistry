@@ -21,6 +21,13 @@
     "torrent": "models/baidu/unlimited-ocr/Unlimited-OCR.torrent"
   },
   {
+    "id": "bottlecapai/ThinkingCap-Qwen3.6-27B",
+    "size": "55.6 GB",
+    "parameters": "27.4B",
+    "license": "apache-2.0",
+    "torrent": "models/bottlecapai/thinkingcap-qwen3.6-27b/ThinkingCap-Qwen3.6-27B.torrent"
+  },
+  {
     "id": "AliesTaha/fable-traces",
     "size": "8.1 GB",
     "parameters": "4B",
@@ -49,18 +56,18 @@
     "torrent": "models/yuxinlu1/gemma-4-12b-agentic-fable5-composer2.5-v2-3.5x-tau2-gguf/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF.torrent"
   },
   {
-    "id": "nvidia/Qwen3.6-27B-NVFP4",
-    "size": "21.9 GB",
-    "parameters": "18.2B",
-    "license": "apache-2.0",
-    "torrent": "models/nvidia/qwen3.6-27b-nvfp4/Qwen3.6-27B-NVFP4.torrent"
-  },
-  {
     "id": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF",
     "size": "4.8 GB",
     "parameters": "",
     "license": "apache-2.0",
     "torrent": "models/gnlolot/minicpm5-1b-claude-opus-fable5-thinking-gguf/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF.torrent"
+  },
+  {
+    "id": "nvidia/Qwen3.6-27B-NVFP4",
+    "size": "21.9 GB",
+    "parameters": "18.2B",
+    "license": "apache-2.0",
+    "torrent": "models/nvidia/qwen3.6-27b-nvfp4/Qwen3.6-27B-NVFP4.torrent"
   },
   {
     "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
