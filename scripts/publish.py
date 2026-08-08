@@ -3,6 +3,7 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 
 from huggingface_hub import model_info
+from huggingface_hub.errors import RepositoryNotFoundError
 
 root = Path(__file__).parent.parent.resolve()
 model_dir = root / "models"
@@ -20,6 +21,7 @@ class Model:
 def main():
     paths = [p for p in model_dir.glob("*/*/*.torrent") if p.is_file()]
     models = [get_model(p) for p in paths]
+    models = filter(None, models)
     models = sorted(models, key=lambda v: v[0], reverse=True)
     models = [asdict(m) for _, m in models]
 
@@ -27,9 +29,12 @@ def main():
     file.write_text(json.dumps(models, indent=2) + "\n")
 
 
-def get_model(path: Path) -> tuple[int, Model]:
+def get_model(path: Path) -> tuple[int, Model] | None:
     repo_id = str(path.parent.relative_to(model_dir))
-    model = model_info(repo_id=repo_id, files_metadata=True)
+    try:
+        model = model_info(repo_id=repo_id, files_metadata=True)
+    except RepositoryNotFoundError:
+        return None
     extra = model_info(repo_id=model.id, expand=["trendingScore"])
 
     size = sum(s.size or 0 for s in model.siblings or [])
