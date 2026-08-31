@@ -21,6 +21,13 @@
     "torrent": "models/ornith-ai/ornith-1.5-35b-a3b/Ornith-1.5-35B-A3B.torrent"
   },
   {
+    "id": "ibm-granite/granite-4.2-30b",
+    "size": "58.6 GB",
+    "parameters": "29.3B",
+    "license": "apache-2.0",
+    "torrent": "models/ibm-granite/granite-4.2-30b/granite-4.2-30b.torrent"
+  },
+  {
     "id": "froggeric/Qwen-Fixed-Chat-Templates",
     "size": "1.2 MB",
     "parameters": "",
@@ -33,6 +40,20 @@
     "parameters": "36B",
     "license": "apache-2.0",
     "torrent": "models/apodex/apodex-1.1-mini/Apodex-1.1-mini.torrent"
+  },
+  {
+    "id": "ornith-ai/Ornith-1.5-9B-GGUF",
+    "size": "49.1 GB",
+    "parameters": "",
+    "license": "mit",
+    "torrent": "models/ornith-ai/ornith-1.5-9b-gguf/Ornith-1.5-9B-GGUF.torrent"
+  },
+  {
+    "id": "lightx2v/Minimax-h3-Turbo",
+    "size": "18.1 GB",
+    "parameters": "",
+    "license": "apache-2.0",
+    "torrent": "models/lightx2v/minimax-h3-turbo/Minimax-h3-Turbo.torrent"
   },
   {
     "id": "sensenova/SenseNova-U1.5-8B-MoT",
@@ -49,11 +70,11 @@
     "torrent": "models/peculiar-ragdoll/qwen-sharp-chat-templates/Qwen-Sharp-Chat-Templates.torrent"
   },
   {
-    "id": "ornith-ai/Ornith-1.5-9B-GGUF",
-    "size": "49.1 GB",
-    "parameters": "",
-    "license": "mit",
-    "torrent": "models/ornith-ai/ornith-1.5-9b-gguf/Ornith-1.5-9B-GGUF.torrent"
+    "id": "Qwen/Qwen3.8-27B-FP8",
+    "size": "30.9 GB",
+    "parameters": "27.8B",
+    "license": "apache-2.0",
+    "torrent": "models/qwen/qwen3.8-27b-fp8/Qwen3.8-27B-FP8.torrent"
   },
   {
     "id": "ornith-ai/Ornith-1.5-9B",
@@ -63,27 +84,6 @@
     "torrent": "models/ornith-ai/ornith-1.5-9b/Ornith-1.5-9B.torrent"
   },
   {
-    "id": "lightx2v/Minimax-h3-Turbo",
-    "size": "18.1 GB",
-    "parameters": "",
-    "license": "apache-2.0",
-    "torrent": "models/lightx2v/minimax-h3-turbo/Minimax-h3-Turbo.torrent"
-  },
-  {
-    "id": "Qwen/Qwen3.8-27B-FP8",
-    "size": "30.9 GB",
-    "parameters": "27.8B",
-    "license": "apache-2.0",
-    "torrent": "models/qwen/qwen3.8-27b-fp8/Qwen3.8-27B-FP8.torrent"
-  },
-  {
-    "id": "z-lab/Qwen3.8-27B-DFlash2",
-    "size": "3.8 GB",
-    "parameters": "1.9B",
-    "license": "apache-2.0",
-    "torrent": "models/z-lab/qwen3.8-27b-dflash2/Qwen3.8-27B-DFlash2.torrent"
-  },
-  {
     "id": "empero-ai/Qwen3.8-27B-Ridge-GGUF",
     "size": "13.5 GB",
     "parameters": "",
@@ -91,11 +91,11 @@
     "torrent": "models/empero-ai/qwen3.8-27b-ridge-gguf/Qwen3.8-27B-Ridge-GGUF.torrent"
   },
   {
-    "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
-    "size": "55.6 GB",
-    "parameters": "27.8B",
+    "id": "meta-models/Muse-Glimmer-30B",
+    "size": "59.6 GB",
+    "parameters": "29.8B",
     "license": "apache-2.0",
-    "torrent": "models/huihui-ai/huihui-qwen3.8-27b-abliterated/Huihui-Qwen3.8-27B-abliterated.torrent"
+    "torrent": "models/meta-models/muse-glimmer-30b/Muse-Glimmer-30B.torrent"
   },
   {
     "id": "unsloth/Qwen3.8-27B-NVFP4",
@@ -105,11 +105,11 @@
     "torrent": "models/unsloth/qwen3.8-27b-nvfp4/Qwen3.8-27B-NVFP4.torrent"
   },
   {
-    "id": "meta-models/Muse-Glimmer-30B",
-    "size": "59.6 GB",
-    "parameters": "29.8B",
+    "id": "z-lab/Qwen3.8-27B-DFlash2",
+    "size": "3.8 GB",
+    "parameters": "1.9B",
     "license": "apache-2.0",
-    "torrent": "models/meta-models/muse-glimmer-30b/Muse-Glimmer-30B.torrent"
+    "torrent": "models/z-lab/qwen3.8-27b-dflash2/Qwen3.8-27B-DFlash2.torrent"
   },
   {
     "id": "baidu/Unlimited-OCR",
@@ -126,11 +126,11 @@
     "torrent": "models/larryvrh/minimax-h3-turbo-lora/MiniMax-H3-Turbo-Lora.torrent"
   },
   {
-    "id": "inclusionAI/Ling-3.0-tiny",
-    "size": "15.8 GB",
-    "parameters": "7.9B",
-    "license": "mit",
-    "torrent": "models/inclusionai/ling-3.0-tiny/Ling-3.0-tiny.torrent"
+    "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
+    "size": "55.6 GB",
+    "parameters": "27.8B",
+    "license": "apache-2.0",
+    "torrent": "models/huihui-ai/huihui-qwen3.8-27b-abliterated/Huihui-Qwen3.8-27B-abliterated.torrent"
   },
   {
     "id": "drbaph/MiniMax-H3-Turbo-Lora-ComfyUI",
@@ -140,13 +140,6 @@
     "torrent": "models/drbaph/minimax-h3-turbo-lora-comfyui/MiniMax-H3-Turbo-Lora-ComfyUI.torrent"
   },
   {
-    "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-    "size": "96.2 GB",
-    "parameters": "",
-    "license": "apache-2.0",
-    "torrent": "models/empero-ai/qwythos-9b-claude-mythos-5-1m-gguf/Qwythos-9B-Claude-Mythos-5-1M-GGUF.torrent"
-  },
-  {
     "id": "microsoft/Mage-VL",
     "size": "10.8 GB",
     "parameters": "4.7B",
@@ -154,25 +147,18 @@
     "torrent": "models/microsoft/mage-vl/Mage-VL.torrent"
   },
   {
-    "id": "ATH-MaaS/OvisOCR2",
-    "size": "1.7 GB",
-    "parameters": "853M",
-    "license": "apache-2.0",
-    "torrent": "models/ath-maas/ovisocr2/OvisOCR2.torrent"
+    "id": "inclusionAI/Ling-3.0-tiny",
+    "size": "15.8 GB",
+    "parameters": "7.9B",
+    "license": "mit",
+    "torrent": "models/inclusionai/ling-3.0-tiny/Ling-3.0-tiny.torrent"
   },
   {
-    "id": "prism-ml/Bonsai-27B-gguf",
-    "size": "68.3 GB",
+    "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+    "size": "96.2 GB",
     "parameters": "",
     "license": "apache-2.0",
-    "torrent": "models/prism-ml/bonsai-27b-gguf/Bonsai-27B-gguf.torrent"
-  },
-  {
-    "id": "ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot",
-    "size": "128.9 GB",
-    "parameters": "",
-    "license": "apache-2.0",
-    "torrent": "models/ethanfel/qwen3-vl-32b-ultra-heretic-minimax-h3-comfyui-int8-convrot/Qwen3-VL-32B-Ultra-Heretic-MiniMax-H3-ComfyUI-INT8-ConvRot.torrent"
+    "torrent": "models/empero-ai/qwythos-9b-claude-mythos-5-1m-gguf/Qwythos-9B-Claude-Mythos-5-1M-GGUF.torrent"
   },
   {
     "id": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
@@ -182,11 +168,11 @@
     "torrent": "models/yuxinlu1/gemma-4-12b-agentic-fable5-composer2.5-v2-3.5x-tau2-gguf/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF.torrent"
   },
   {
-    "id": "prism-ml/Ternary-Bonsai-27B-gguf",
-    "size": "86.5 GB",
+    "id": "prism-ml/Bonsai-27B-gguf",
+    "size": "68.3 GB",
     "parameters": "",
     "license": "apache-2.0",
-    "torrent": "models/prism-ml/ternary-bonsai-27b-gguf/Ternary-Bonsai-27B-gguf.torrent"
+    "torrent": "models/prism-ml/bonsai-27b-gguf/Bonsai-27B-gguf.torrent"
   },
   {
     "id": "HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
@@ -196,20 +182,6 @@
     "torrent": "models/hauhaucs/gemma4-12b-qat-uncensored-hauhaucs-balanced/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced.torrent"
   },
   {
-    "id": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
-    "size": "1.8 GB",
-    "parameters": "908.5M",
-    "license": "apache-2.0",
-    "torrent": "models/openmoss-team/moss-transcribe-diarize/MOSS-Transcribe-Diarize.torrent"
-  },
-  {
-    "id": "Kwaipilot/KAT-Coder-V2.5-Dev",
-    "size": "69.4 GB",
-    "parameters": "34.7B",
-    "license": "apache-2.0",
-    "torrent": "models/kwaipilot/kat-coder-v2.5-dev/KAT-Coder-V2.5-Dev.torrent"
-  },
-  {
     "id": "Nanbeige/Nanbeige4.2-3B",
     "size": "8.4 GB",
     "parameters": "4.2B",
@@ -217,11 +189,32 @@
     "torrent": "models/nanbeige/nanbeige4.2-3b/Nanbeige4.2-3B.torrent"
   },
   {
-    "id": "nvidia/Qwen3.6-35B-A3B-NVFP4",
-    "size": "23.5 GB",
-    "parameters": "18.7B",
+    "id": "ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot",
+    "size": "128.9 GB",
+    "parameters": "",
     "license": "apache-2.0",
-    "torrent": "models/nvidia/qwen3.6-35b-a3b-nvfp4/Qwen3.6-35B-A3B-NVFP4.torrent"
+    "torrent": "models/ethanfel/qwen3-vl-32b-ultra-heretic-minimax-h3-comfyui-int8-convrot/Qwen3-VL-32B-Ultra-Heretic-MiniMax-H3-ComfyUI-INT8-ConvRot.torrent"
+  },
+  {
+    "id": "ATH-MaaS/OvisOCR2",
+    "size": "1.7 GB",
+    "parameters": "853M",
+    "license": "apache-2.0",
+    "torrent": "models/ath-maas/ovisocr2/OvisOCR2.torrent"
+  },
+  {
+    "id": "prism-ml/Ternary-Bonsai-27B-gguf",
+    "size": "86.5 GB",
+    "parameters": "",
+    "license": "apache-2.0",
+    "torrent": "models/prism-ml/ternary-bonsai-27b-gguf/Ternary-Bonsai-27B-gguf.torrent"
+  },
+  {
+    "id": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
+    "size": "1.8 GB",
+    "parameters": "908.5M",
+    "license": "apache-2.0",
+    "torrent": "models/openmoss-team/moss-transcribe-diarize/MOSS-Transcribe-Diarize.torrent"
   },
   {
     "id": "Audio8/Audio8-TTS-Preview-0.6b",
@@ -238,11 +231,18 @@
     "torrent": "models/comfy-org/minimax-music-3/MiniMax-Music-3.torrent"
   },
   {
-    "id": "Qwen/Qwen-AgentWorld-35B-A3B",
-    "size": "69.3 GB",
+    "id": "nvidia/Qwen3.6-35B-A3B-NVFP4",
+    "size": "23.5 GB",
+    "parameters": "18.7B",
+    "license": "apache-2.0",
+    "torrent": "models/nvidia/qwen3.6-35b-a3b-nvfp4/Qwen3.6-35B-A3B-NVFP4.torrent"
+  },
+  {
+    "id": "Kwaipilot/KAT-Coder-V2.5-Dev",
+    "size": "69.4 GB",
     "parameters": "34.7B",
     "license": "apache-2.0",
-    "torrent": "models/qwen/qwen-agentworld-35b-a3b/Qwen-AgentWorld-35B-A3B.torrent"
+    "torrent": "models/kwaipilot/kat-coder-v2.5-dev/KAT-Coder-V2.5-Dev.torrent"
   },
   {
     "id": "mistralai/Shieldstral-1.0-3B",
@@ -252,18 +252,11 @@
     "torrent": "models/mistralai/shieldstral-1.0-3b/Shieldstral-1.0-3B.torrent"
   },
   {
-    "id": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-    "size": "40.8 GB",
-    "parameters": "",
+    "id": "Qwen/Qwen-AgentWorld-35B-A3B",
+    "size": "69.3 GB",
+    "parameters": "34.7B",
     "license": "apache-2.0",
-    "torrent": "models/yuxinlu1/gemma-4-12b-coder-fable5-composer2.5-v1-gguf/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF.torrent"
-  },
-  {
-    "id": "prism-ml/Bonsai-27B-mlx-1bit",
-    "size": "5.2 GB",
-    "parameters": "1.7B",
-    "license": "apache-2.0",
-    "torrent": "models/prism-ml/bonsai-27b-mlx-1bit/Bonsai-27B-mlx-1bit.torrent"
+    "torrent": "models/qwen/qwen-agentworld-35b-a3b/Qwen-AgentWorld-35B-A3B.torrent"
   },
   {
     "id": "lodestones/Kroma",
@@ -273,32 +266,11 @@
     "torrent": "models/lodestones/kroma/Kroma.torrent"
   },
   {
-    "id": "empero-ai/Qwythos-9B-v2-GGUF",
-    "size": "96.6 GB",
-    "parameters": "",
+    "id": "prism-ml/Bonsai-27B-mlx-1bit",
+    "size": "5.2 GB",
+    "parameters": "1.7B",
     "license": "apache-2.0",
-    "torrent": "models/empero-ai/qwythos-9b-v2-gguf/Qwythos-9B-v2-GGUF.torrent"
-  },
-  {
-    "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
-    "size": "18.8 GB",
-    "parameters": "9.4B",
-    "license": "apache-2.0",
-    "torrent": "models/empero-ai/qwythos-9b-claude-mythos-5-1m/Qwythos-9B-Claude-Mythos-5-1M.torrent"
-  },
-  {
-    "id": "endless-frontier/BigBang-v1",
-    "size": "71.9 GB",
-    "parameters": "36B",
-    "license": "apache-2.0",
-    "torrent": "models/endless-frontier/bigbang-v1/BigBang-v1.torrent"
-  },
-  {
-    "id": "deepgrove/maple-preview",
-    "size": "40.4 GB",
-    "parameters": "20.2B",
-    "license": "mit",
-    "torrent": "models/deepgrove/maple-preview/maple-preview.torrent"
+    "torrent": "models/prism-ml/bonsai-27b-mlx-1bit/Bonsai-27B-mlx-1bit.torrent"
   },
   {
     "id": "owensong/Inflect-Micro-v2",
@@ -308,6 +280,27 @@
     "torrent": "models/owensong/inflect-micro-v2/Inflect-Micro-v2.torrent"
   },
   {
+    "id": "empero-ai/Qwythos-9B-v2-GGUF",
+    "size": "96.6 GB",
+    "parameters": "",
+    "license": "apache-2.0",
+    "torrent": "models/empero-ai/qwythos-9b-v2-gguf/Qwythos-9B-v2-GGUF.torrent"
+  },
+  {
+    "id": "deepgrove/maple-preview",
+    "size": "40.4 GB",
+    "parameters": "20.2B",
+    "license": "mit",
+    "torrent": "models/deepgrove/maple-preview/maple-preview.torrent"
+  },
+  {
+    "id": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+    "size": "40.8 GB",
+    "parameters": "",
+    "license": "apache-2.0",
+    "torrent": "models/yuxinlu1/gemma-4-12b-coder-fable5-composer2.5-v1-gguf/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF.torrent"
+  },
+  {
     "id": "ornith-ai/Ornith-1.0-9B-GGUF",
     "size": "46.9 GB",
     "parameters": "",
@@ -315,11 +308,11 @@
     "torrent": "models/deepreinforce-ai/ornith-1.0-9b-gguf/Ornith-1.0-9B-GGUF.torrent"
   },
   {
-    "id": "WeiboAI/VibeThinker-3B",
-    "size": "6.2 GB",
-    "parameters": "3.1B",
-    "license": "mit",
-    "torrent": "models/weiboai/vibethinker-3b/VibeThinker-3B.torrent"
+    "id": "endless-frontier/BigBang-v1",
+    "size": "71.9 GB",
+    "parameters": "36B",
+    "license": "apache-2.0",
+    "torrent": "models/endless-frontier/bigbang-v1/BigBang-v1.torrent"
   },
   {
     "id": "microsoft/VibeVoice-ASR-BitNet",
@@ -343,18 +336,25 @@
     "torrent": "models/meta-models/muse-glimmer-30b-gguf/Muse-Glimmer-30B-GGUF.torrent"
   },
   {
+    "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
+    "size": "18.8 GB",
+    "parameters": "9.4B",
+    "license": "apache-2.0",
+    "torrent": "models/empero-ai/qwythos-9b-claude-mythos-5-1m/Qwythos-9B-Claude-Mythos-5-1M.torrent"
+  },
+  {
+    "id": "WeiboAI/VibeThinker-3B",
+    "size": "6.2 GB",
+    "parameters": "3.1B",
+    "license": "mit",
+    "torrent": "models/weiboai/vibethinker-3b/VibeThinker-3B.torrent"
+  },
+  {
     "id": "ornith-ai/Ornith-1.0-9B",
     "size": "18.8 GB",
     "parameters": "1.5M",
     "license": "mit",
     "torrent": "models/deepreinforce-ai/ornith-1.0-9b/Ornith-1.0-9B.torrent"
-  },
-  {
-    "id": "openbmb/MiniCPM-RobotManip",
-    "size": "3.6 GB",
-    "parameters": "1.5B",
-    "license": "apache-2.0",
-    "torrent": "models/openbmb/minicpm-robotmanip/MiniCPM-RobotManip.torrent"
   },
   {
     "id": "nvidia/Qwen3.6-27B-NVFP4",
@@ -392,6 +392,13 @@
     "torrent": "models/internscience/agents-a1/Agents-A1.torrent"
   },
   {
+    "id": "openbmb/MiniCPM-RobotManip",
+    "size": "3.6 GB",
+    "parameters": "1.5B",
+    "license": "apache-2.0",
+    "torrent": "models/openbmb/minicpm-robotmanip/MiniCPM-RobotManip.torrent"
+  },
+  {
     "id": "migtissera/Tess-4-27B",
     "size": "55.6 GB",
     "parameters": "27.8B",
@@ -404,6 +411,13 @@
     "parameters": "27.4B",
     "license": "mit",
     "torrent": "models/microsoft/fara1.5-27b/Fara1.5-27B.torrent"
+  },
+  {
+    "id": "BugTraceAI/BugTraceAI-CORE-Ultra-27B-Q6",
+    "size": "22.1 GB",
+    "parameters": "",
+    "license": "apache-2.0",
+    "torrent": "models/bugtraceai/bugtraceai-core-ultra-27b-q6/BugTraceAI-CORE-Ultra-27B-Q6.torrent"
   },
   {
     "id": "owensong/Inflect-Nano-v2",
@@ -474,12 +488,5 @@
     "parameters": "555.7M",
     "license": "apache-2.0",
     "torrent": "models/nineninesix/gepard-1.0/gepard-1.0.torrent"
-  },
-  {
-    "id": "BugTraceAI/BugTraceAI-CORE-Ultra-27B-Q6",
-    "size": "22.1 GB",
-    "parameters": "",
-    "license": "apache-2.0",
-    "torrent": "models/bugtraceai/bugtraceai-core-ultra-27b-q6/BugTraceAI-CORE-Ultra-27B-Q6.torrent"
   }
 ]

@@ -1,66 +1,66 @@
 {
   "models/aliestaha/fable-traces/fable-traces.torrent": {
-    "peers": 2,
-    "seeds": 0
-  },
-  "models/apodex/apodex-1.1-mini/Apodex-1.1-mini.torrent": {
-    "peers": 4,
-    "seeds": 0
-  },
-  "models/ath-maas/ovisocr2/OvisOCR2.torrent": {
-    "peers": 3,
-    "seeds": 0
-  },
-  "models/audio8/audio8-tts-preview-0.6b/Audio8-TTS-Preview-0.6b.torrent": {
-    "peers": 2,
-    "seeds": 0
-  },
-  "models/baidu/unlimited-ocr/Unlimited-OCR.torrent": {
-    "peers": 8,
-    "seeds": 1
-  },
-  "models/bottlecapai/thinkingcap-qwen3.6-27b/ThinkingCap-Qwen3.6-27B.torrent": {
-    "peers": 4,
-    "seeds": 0
-  },
-  "models/bugtraceai/bugtraceai-core-ultra-27b-q6/BugTraceAI-CORE-Ultra-27B-Q6.torrent": {
-    "peers": 4,
-    "seeds": 0
-  },
-  "models/comfy-org/minimax-music-3/MiniMax-Music-3.torrent": {
-    "peers": 7,
-    "seeds": 0
-  },
-  "models/davidau/qwen3.5-9b-claude-4.6-highiq-thinking-heretic-uncensored/Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED.torrent": {
-    "peers": 5,
-    "seeds": 0
-  },
-  "models/deepgrove/maple-preview/maple-preview.torrent": {
-    "peers": 8,
-    "seeds": 1
-  },
-  "models/deepreinforce-ai/ornith-1.0-35b/Ornith-1.0-35B.torrent": {
-    "peers": 9,
-    "seeds": 0
-  },
-  "models/deepreinforce-ai/ornith-1.0-9b-gguf/Ornith-1.0-9B-GGUF.torrent": {
-    "peers": 8,
-    "seeds": 2
-  },
-  "models/deepreinforce-ai/ornith-1.0-9b/Ornith-1.0-9B.torrent": {
-    "peers": 6,
-    "seeds": 0
-  },
-  "models/drbaph/minimax-h3-turbo-lora-comfyui/MiniMax-H3-Turbo-Lora-ComfyUI.torrent": {
     "peers": 1,
     "seeds": 0
   },
-  "models/empero-ai/qwen3.8-27b-ridge-gguf/Qwen3.8-27B-Ridge-GGUF.torrent": {
+  "models/apodex/apodex-1.1-mini/Apodex-1.1-mini.torrent": {
+    "peers": 2,
+    "seeds": 1
+  },
+  "models/ath-maas/ovisocr2/OvisOCR2.torrent": {
+    "peers": 7,
+    "seeds": 0
+  },
+  "models/audio8/audio8-tts-preview-0.6b/Audio8-TTS-Preview-0.6b.torrent": {
+    "peers": 5,
+    "seeds": 0
+  },
+  "models/baidu/unlimited-ocr/Unlimited-OCR.torrent": {
     "peers": 9,
     "seeds": 1
   },
-  "models/empero-ai/qwythos-9b-claude-mythos-5-1m-gguf/Qwythos-9B-Claude-Mythos-5-1M-GGUF.torrent": {
+  "models/bottlecapai/thinkingcap-qwen3.6-27b/ThinkingCap-Qwen3.6-27B.torrent": {
+    "peers": 9,
+    "seeds": 0
+  },
+  "models/bugtraceai/bugtraceai-core-ultra-27b-q6/BugTraceAI-CORE-Ultra-27B-Q6.torrent": {
+    "peers": 1,
+    "seeds": 0
+  },
+  "models/comfy-org/minimax-music-3/MiniMax-Music-3.torrent": {
+    "peers": 4,
+    "seeds": 0
+  },
+  "models/davidau/qwen3.5-9b-claude-4.6-highiq-thinking-heretic-uncensored/Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED.torrent": {
+    "peers": 3,
+    "seeds": 1
+  },
+  "models/deepgrove/maple-preview/maple-preview.torrent": {
+    "peers": 1,
+    "seeds": 1
+  },
+  "models/deepreinforce-ai/ornith-1.0-35b/Ornith-1.0-35B.torrent": {
     "peers": 7,
+    "seeds": 0
+  },
+  "models/deepreinforce-ai/ornith-1.0-9b-gguf/Ornith-1.0-9B-GGUF.torrent": {
+    "peers": 5,
+    "seeds": 1
+  },
+  "models/deepreinforce-ai/ornith-1.0-9b/Ornith-1.0-9B.torrent": {
+    "peers": 8,
+    "seeds": 0
+  },
+  "models/drbaph/minimax-h3-turbo-lora-comfyui/MiniMax-H3-Turbo-Lora-ComfyUI.torrent": {
+    "peers": 0,
+    "seeds": 0
+  },
+  "models/empero-ai/qwen3.8-27b-ridge-gguf/Qwen3.8-27B-Ridge-GGUF.torrent": {
+    "peers": 3,
+    "seeds": 1
+  },
+  "models/empero-ai/qwythos-9b-claude-mythos-5-1m-gguf/Qwythos-9B-Claude-Mythos-5-1M-GGUF.torrent": {
+    "peers": 6,
     "seeds": 0
   },
   "models/empero-ai/qwythos-9b-claude-mythos-5-1m/Qwythos-9B-Claude-Mythos-5-1M.torrent": {
@@ -68,127 +68,131 @@
     "seeds": 1
   },
   "models/empero-ai/qwythos-9b-v2-gguf/Qwythos-9B-v2-GGUF.torrent": {
-    "peers": 1,
-    "seeds": 0
-  },
-  "models/endless-frontier/bigbang-v1/BigBang-v1.torrent": {
-    "peers": 1,
-    "seeds": 0
-  },
-  "models/eric-venti-seeds/sun-direction-lora-flux2klein9b/Sun-Direction-Lora-Flux2Klein9B.torrent": {
-    "peers": 10,
-    "seeds": 0
-  },
-  "models/eschalabs/qwen3.6-35b-a3b-escha-w2/Qwen3.6-35B-A3B-Escha-W2.torrent": {
-    "peers": 13,
-    "seeds": 1
-  },
-  "models/ethanfel/qwen3-vl-32b-ultra-heretic-minimax-h3-comfyui-int8-convrot/Qwen3-VL-32B-Ultra-Heretic-MiniMax-H3-ComfyUI-INT8-ConvRot.torrent": {
-    "peers": 3,
-    "seeds": 1
-  },
-  "models/froggeric/qwen-fixed-chat-templates/Qwen-Fixed-Chat-Templates.torrent": {
-    "peers": 4,
-    "seeds": 0
-  },
-  "models/gnlolot/minicpm5-1b-claude-opus-fable5-thinking-gguf/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF.torrent": {
-    "peers": 7,
-    "seeds": 0
-  },
-  "models/gnlolot/minicpm5-1b-claude-opus-fable5-thinking/MiniCPM5-1B-Claude-Opus-Fable5-Thinking.torrent": {
-    "peers": 8,
-    "seeds": 0
-  },
-  "models/hauhaucs/gemma4-12b-qat-uncensored-hauhaucs-balanced/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced.torrent": {
-    "peers": 3,
-    "seeds": 1
-  },
-  "models/huihui-ai/huihui-gemma-4-12b-coder-fable5-composer2.5-v1-abliterated/Huihui-gemma-4-12B-coder-fable5-composer2.5-v1-abliterated.torrent": {
-    "peers": 3,
-    "seeds": 1
-  },
-  "models/huihui-ai/huihui-qwen3.8-27b-abliterated/Huihui-Qwen3.8-27B-abliterated.torrent": {
-    "peers": 4,
-    "seeds": 0
-  },
-  "models/inclusionai/ling-3.0-tiny/Ling-3.0-tiny.torrent": {
-    "peers": 1,
-    "seeds": 0
-  },
-  "models/internscience/agents-a1/Agents-A1.torrent": {
-    "peers": 8,
-    "seeds": 1
-  },
-  "models/kwaipilot/kat-coder-v2.5-dev/KAT-Coder-V2.5-Dev.torrent": {
-    "peers": 6,
-    "seeds": 1
-  },
-  "models/larryvrh/minimax-h3-turbo-lora/MiniMax-H3-Turbo-Lora.torrent": {
-    "peers": 10,
-    "seeds": 1
-  },
-  "models/lightx2v/minimax-h3-turbo/Minimax-h3-Turbo.torrent": {
-    "peers": 4,
-    "seeds": 0
-  },
-  "models/lodestones/kroma/Kroma.torrent": {
-    "peers": 4,
-    "seeds": 0
-  },
-  "models/meta-models/muse-glimmer-30b-gguf/Muse-Glimmer-30B-GGUF.torrent": {
     "peers": 5,
     "seeds": 0
   },
-  "models/meta-models/muse-glimmer-30b/Muse-Glimmer-30B.torrent": {
+  "models/endless-frontier/bigbang-v1/BigBang-v1.torrent": {
     "peers": 2,
     "seeds": 0
   },
+  "models/eric-venti-seeds/sun-direction-lora-flux2klein9b/Sun-Direction-Lora-Flux2Klein9B.torrent": {
+    "peers": 8,
+    "seeds": 0
+  },
+  "models/eschalabs/qwen3.6-35b-a3b-escha-w2/Qwen3.6-35B-A3B-Escha-W2.torrent": {
+    "peers": 8,
+    "seeds": 1
+  },
+  "models/ethanfel/qwen3-vl-32b-ultra-heretic-minimax-h3-comfyui-int8-convrot/Qwen3-VL-32B-Ultra-Heretic-MiniMax-H3-ComfyUI-INT8-ConvRot.torrent": {
+    "peers": 1,
+    "seeds": 0
+  },
+  "models/froggeric/qwen-fixed-chat-templates/Qwen-Fixed-Chat-Templates.torrent": {
+    "peers": 2,
+    "seeds": 0
+  },
+  "models/gnlolot/minicpm5-1b-claude-opus-fable5-thinking-gguf/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF.torrent": {
+    "peers": 6,
+    "seeds": 0
+  },
+  "models/gnlolot/minicpm5-1b-claude-opus-fable5-thinking/MiniCPM5-1B-Claude-Opus-Fable5-Thinking.torrent": {
+    "peers": 4,
+    "seeds": 1
+  },
+  "models/hauhaucs/gemma4-12b-qat-uncensored-hauhaucs-balanced/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced.torrent": {
+    "peers": 4,
+    "seeds": 1
+  },
+  "models/huihui-ai/huihui-gemma-4-12b-coder-fable5-composer2.5-v1-abliterated/Huihui-gemma-4-12B-coder-fable5-composer2.5-v1-abliterated.torrent": {
+    "peers": 6,
+    "seeds": 1
+  },
+  "models/huihui-ai/huihui-qwen3.8-27b-abliterated/Huihui-Qwen3.8-27B-abliterated.torrent": {
+    "peers": 7,
+    "seeds": 0
+  },
+  "models/ibm-granite/granite-4.2-30b/granite-4.2-30b.torrent": {
+    "peers": 3,
+    "seeds": 0
+  },
+  "models/inclusionai/ling-3.0-tiny/Ling-3.0-tiny.torrent": {
+    "peers": 13,
+    "seeds": 0
+  },
+  "models/internscience/agents-a1/Agents-A1.torrent": {
+    "peers": 6,
+    "seeds": 1
+  },
+  "models/kwaipilot/kat-coder-v2.5-dev/KAT-Coder-V2.5-Dev.torrent": {
+    "peers": 12,
+    "seeds": 1
+  },
+  "models/larryvrh/minimax-h3-turbo-lora/MiniMax-H3-Turbo-Lora.torrent": {
+    "peers": 8,
+    "seeds": 1
+  },
+  "models/lightx2v/minimax-h3-turbo/Minimax-h3-Turbo.torrent": {
+    "peers": 13,
+    "seeds": 0
+  },
+  "models/lodestones/kroma/Kroma.torrent": {
+    "peers": 1,
+    "seeds": 0
+  },
+  "models/meta-models/muse-glimmer-30b-gguf/Muse-Glimmer-30B-GGUF.torrent": {
+    "peers": 1,
+    "seeds": 0
+  },
+  "models/meta-models/muse-glimmer-30b/Muse-Glimmer-30B.torrent": {
+    "peers": 4,
+    "seeds": 0
+  },
   "models/microsoft/fara1.5-27b/Fara1.5-27B.torrent": {
-    "peers": 9,
+    "peers": 2,
     "seeds": 0
   },
   "models/microsoft/mage-flow-edit-turbo/Mage-Flow-Edit-Turbo.torrent": {
-    "peers": 6,
-    "seeds": 0
+    "peers": 7,
+    "seeds": 1
   },
   "models/microsoft/mage-flow/Mage-Flow.torrent": {
     "peers": 3,
     "seeds": 0
   },
   "models/microsoft/mage-vl/Mage-VL.torrent": {
-    "peers": 5,
-    "seeds": 0
+    "peers": 12,
+    "seeds": 1
   },
   "models/microsoft/vibevoice-asr-bitnet/VibeVoice-ASR-BitNet.torrent": {
-    "peers": 7,
+    "peers": 1,
     "seeds": 0
   },
   "models/migtissera/tess-4-27b/Tess-4-27B.torrent": {
     "peers": 3,
-    "seeds": 0
+    "seeds": 1
   },
   "models/mistralai/leanstral-1.5-119b-a6b/Leanstral-1.5-119B-A6B.torrent": {
-    "peers": 3,
+    "peers": 9,
     "seeds": 1
   },
   "models/mistralai/shieldstral-1.0-3b/Shieldstral-1.0-3B.torrent": {
-    "peers": 5,
-    "seeds": 2
+    "peers": 2,
+    "seeds": 0
   },
   "models/nanbeige/nanbeige4.2-3b/Nanbeige4.2-3B.torrent": {
-    "peers": 5,
+    "peers": 6,
     "seeds": 0
   },
   "models/nineninesix/gepard-1.0/gepard-1.0.torrent": {
     "peers": 6,
-    "seeds": 1
-  },
-  "models/nvidia/qwen3.6-27b-nvfp4/Qwen3.6-27B-NVFP4.torrent": {
-    "peers": 3,
     "seeds": 0
   },
+  "models/nvidia/qwen3.6-27b-nvfp4/Qwen3.6-27B-NVFP4.torrent": {
+    "peers": 7,
+    "seeds": 1
+  },
   "models/nvidia/qwen3.6-35b-a3b-nvfp4/Qwen3.6-35B-A3B-NVFP4.torrent": {
-    "peers": 2,
+    "peers": 9,
     "seeds": 0
   },
   "models/openbmb/minicpm-robotmanip/MiniCPM-RobotManip.torrent": {
@@ -196,11 +200,11 @@
     "seeds": 1
   },
   "models/openmoss-team/moss-transcribe-diarize/MOSS-Transcribe-Diarize.torrent": {
-    "peers": 2,
-    "seeds": 0
+    "peers": 5,
+    "seeds": 1
   },
   "models/orcarouter/qwen3.8-27b-uncensored-mlx/Qwen3.8-27B-Uncensored-MLX.torrent": {
-    "peers": 3,
+    "peers": 5,
     "seeds": 2
   },
   "models/ornith-ai/ornith-1.5-35b-a3b/Ornith-1.5-35B-A3B.torrent": {
@@ -208,79 +212,79 @@
     "seeds": 1
   },
   "models/ornith-ai/ornith-1.5-9b-gguf/Ornith-1.5-9B-GGUF.torrent": {
-    "peers": 6,
+    "peers": 4,
     "seeds": 1
   },
   "models/ornith-ai/ornith-1.5-9b/Ornith-1.5-9B.torrent": {
-    "peers": 5,
+    "peers": 7,
     "seeds": 0
   },
   "models/owensong/inflect-micro-v2/Inflect-Micro-v2.torrent": {
-    "peers": 5,
-    "seeds": 0
+    "peers": 6,
+    "seeds": 1
   },
   "models/owensong/inflect-nano-v2/Inflect-Nano-v2.torrent": {
-    "peers": 11,
+    "peers": 1,
     "seeds": 0
   },
   "models/peculiar-ragdoll/qwen-sharp-chat-templates/Qwen-Sharp-Chat-Templates.torrent": {
-    "peers": 2,
+    "peers": 3,
     "seeds": 1
   },
   "models/prism-ml/bonsai-27b-gguf/Bonsai-27B-gguf.torrent": {
-    "peers": 7,
+    "peers": 16,
     "seeds": 0
   },
   "models/prism-ml/bonsai-27b-mlx-1bit/Bonsai-27B-mlx-1bit.torrent": {
-    "peers": 0,
+    "peers": 4,
     "seeds": 0
   },
   "models/prism-ml/ternary-bonsai-27b-gguf/Ternary-Bonsai-27B-gguf.torrent": {
-    "peers": 4,
-    "seeds": 0
-  },
-  "models/qwen/qwen-agentworld-35b-a3b/Qwen-AgentWorld-35B-A3B.torrent": {
-    "peers": 7,
-    "seeds": 1
-  },
-  "models/qwen/qwen3.8-27b-fp8/Qwen3.8-27B-FP8.torrent": {
     "peers": 2,
     "seeds": 0
   },
+  "models/qwen/qwen-agentworld-35b-a3b/Qwen-AgentWorld-35B-A3B.torrent": {
+    "peers": 6,
+    "seeds": 1
+  },
+  "models/qwen/qwen3.8-27b-fp8/Qwen3.8-27B-FP8.torrent": {
+    "peers": 1,
+    "seeds": 0
+  },
   "models/qwen/qwen3.8-27b/Qwen3.8-27B.torrent": {
-    "peers": 4,
+    "peers": 3,
     "seeds": 0
   },
   "models/sensenova/sensenova-u1.5-8b-mot/SenseNova-U1.5-8B-MoT.torrent": {
-    "peers": 7,
+    "peers": 15,
     "seeds": 2
   },
   "models/unsloth/qwen3.8-27b-nvfp4/Qwen3.8-27B-NVFP4.torrent": {
-    "peers": 5,
+    "peers": 9,
     "seeds": 1
   },
   "models/wan-ai/wan-dancer-14b/Wan-Dancer-14B.torrent": {
-    "peers": 14,
-    "seeds": 0
+    "peers": 8,
+    "seeds": 1
   },
   "models/weiboai/vibethinker-3b/VibeThinker-3B.torrent": {
-    "peers": 4,
+    "peers": 5,
     "seeds": 0
   },
   "models/xyzailab/xyz-aquila-mini/XYZ-Aquila-mini.torrent": {
     "peers": 2,
-    "seeds": 1
+    "seeds": 0
   },
   "models/yuxinlu1/gemma-4-12b-agentic-fable5-composer2.5-v2-3.5x-tau2-gguf/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF.torrent": {
-    "peers": 2,
+    "peers": 10,
     "seeds": 1
   },
   "models/yuxinlu1/gemma-4-12b-coder-fable5-composer2.5-v1-gguf/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF.torrent": {
-    "peers": 3,
-    "seeds": 0
+    "peers": 4,
+    "seeds": 2
   },
   "models/z-lab/qwen3.8-27b-dflash2/Qwen3.8-27B-DFlash2.torrent": {
-    "peers": 8,
+    "peers": 4,
     "seeds": 0
   }
 }
